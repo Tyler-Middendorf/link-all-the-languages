@@ -1,6 +1,6 @@
 #include <functions.h>
 
-const void (*hello[])(void) = {hello_rust};
+const void (*hello[])(void) = {hello_rust,helloJava};
 
 #define NUMBER_OF_LANGUAGES sizeof(hello) / sizeof(hello[0])
 
